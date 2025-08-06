@@ -1,0 +1,12 @@
+pycocotools>=2.0.6
+opencv-python-headless>=4.8.0
+matplotlib>=3.7.1
+tqdm
+pyyaml==5.1
+numpy>=1.23
+termcolor
+
+
+# uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# uv pip install --no-build-isolation git+https://github.com/KaungHtetCho-22/detectron2-fb.git
+# uv pip install -r requirements.txt --skip-dependency-check
