@@ -1,0 +1,9 @@
+_BASE_: "../Base-ViTDet.yaml"
+MODEL:
+  WEIGHTS: "checkpoint0080.pth"
+  ROI_HEADS:
+    NUM_CLASSES: 1
+DATASETS:
+  TRAIN: ("../../../../datasets/detection/dataset/images/train",)
+  TEST: ("../../../../datasets/detection/dataset/images/val",)
+OUTPUT_DIR: "./output/leukemia-vitdet-small"
